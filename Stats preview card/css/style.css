@@ -20,7 +20,7 @@ body {
 .main_container .content {
     background-color: hsl(244, 38%, 16%);
     padding: 4.8em 7em 4.3em 4.3em;
-    border-radius: 10px;
+    border-radius: 10px 0px 00px 10px;
 }
 
 .main_container .content .paragraph h1 {
@@ -63,12 +63,15 @@ body {
 
 .main_container .img {
     background: url(../images/image-header-desktop.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
 }
 
 .main_container .img div {
     background-color: hsl(277, 64%, 61%);
     opacity: 0.5;
     height: 100%;
+    border-radius: 0 10px 10px 0;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -80,4 +83,44 @@ body {
     body {
         font-size: 16px;
     }
+}
+
+@media only screen and (max-width: 940px) {
+    .main_container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        width: 23em;
+    }
+
+    .main_container .content {
+        border-radius: 0 0 10px 10px;
+        padding: 3em 2em;
+        order: 2;
+    }
+
+    .main_container .content .value {
+        grid-template-columns: 1fr;
+        text-align: center;
+        grid-gap: 2em;
+    }
+    
+    .main_container .content .paragraph h1 {
+        text-align: center;
+        margin-bottom: 0.5em;
+    }
+
+    .main_container .content .paragraph p {
+        text-align: center;
+        font-size: 1em;
+        margin: 0 1em 3em;
+    }
+
+    .main_container .img {
+        order: 1;
+    }
+
+    .main_container .img, .main_container .img div {
+        border-radius: 10px 10px 0 0;
+    }
+
 }
