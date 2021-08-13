@@ -33,7 +33,7 @@ body {
 
 .content {
     width: 80%;
-    margin: 35px auto 20px;
+    margin: 40px auto 20px;
 }
 
 .content h1 {
@@ -57,6 +57,7 @@ body {
     height: 10vh;
     margin: auto;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .plan_container {
@@ -105,9 +106,9 @@ body {
     font-size: 14px;
     font-weight: 700;
     border-radius: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border-style: none;
-    box-shadow: 1px 1px 5px #8d8db3;
+    box-shadow: 1px 1px 10px #8d8db3;
 }
 
 .buttons .proceed:active {
@@ -147,7 +148,7 @@ body {
 
 @media only screen and (max-width: 1400px) {
     body {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 @media only screen and (min-width: 1400px) {
