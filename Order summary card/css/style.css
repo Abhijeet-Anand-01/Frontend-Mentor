@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background: url(../images/pattern-background-desktop.svg) no-repeat;
     background-size: contain;
@@ -14,7 +15,6 @@ body {
 
 .main_container {
     width: 28em;
-    /* height: 77vh; */
     background-color: white;
     margin: auto;
     text-align: center;
@@ -28,7 +28,6 @@ body {
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
     height: 26vh;
-    /* border-radius: inherit inherit 0 0; */
 }
 
 .content {
@@ -60,21 +59,23 @@ body {
     margin-bottom: 30px;
 }
 
-.plan_container {
+.plan .plan_container {
     display: flex;
 }
-.plan .icon {
+
+.plan .plan_container .icon {
     background: url(../images/icon-music.svg) no-repeat;
     height: 50px;
     width: 50px;
     margin: 0 15px 0 20px;
 }
 
-.plan .price h4 {
+.plan .plan_container .price h4 {
     font-size: 15px;
     margin-bottom: 5px;
 }
-.plan .price p {
+
+.plan .plan_container .price p {
     color: hsl(224, 23%, 55%);
 }
 
@@ -83,6 +84,7 @@ body {
     font-size: 12px;
     font-weight: 900;
 }
+
 .plan .change a {
     color: hsl(245, 75%, 52%);
 }
@@ -99,7 +101,6 @@ body {
 }
 
 .buttons .proceed {
-    /* width: 80%; */
     background-color: hsl(245, 75%, 52%);
     color: white;
     height: 45px;
@@ -127,7 +128,6 @@ body {
 .buttons .cancel {
     background-color: white;
     border-color: transparent;
-    /* text-decoration: none; */
     color: hsl(224, 23%, 55%);
     height: 45px;
     font-size: 14px;
@@ -156,4 +156,3 @@ body {
         font-size: 16px;
     }
 }
-
