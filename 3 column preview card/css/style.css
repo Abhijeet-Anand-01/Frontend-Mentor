@@ -51,6 +51,7 @@ body {
 }
 
 .main_container .btn {
+    cursor: pointer;
     padding: 1em 2em;
     border-radius: 30px;
     font-family: "Lexend Deca", sans-serif;
@@ -59,20 +60,23 @@ body {
     margin-top: 5em;
 }
 
-.main_container .sedans>.btn {
+.main_container .sedans > .btn {
     color: hsl(31, 77%, 52%);
 }
 
-.main_container .suvs>.btn {
+.main_container .suvs > .btn {
     color: hsl(184, 100%, 22%);
 }
 
-.main_container .luxury>.btn {
+.main_container .luxury > .btn {
     color: hsl(179, 100%, 13%);
 }
 
 .main_container .btn:active {
     border-style: none;
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
 }
 
 .main_container .btn:focus-visible {
@@ -92,10 +96,6 @@ body {
 
 @media only screen and (max-width: 865px) {
 
-    /* body {
-        height: 0;
-        padding: 5em 0;
-    } */
     .main_container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
