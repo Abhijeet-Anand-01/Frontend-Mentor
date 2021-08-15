@@ -97,7 +97,6 @@ body {
     animation: zoomIn 0.5s;
 }
 
-
 @keyframes opac {
     from {
         opacity: 0;
@@ -118,3 +117,13 @@ body {
     }
 }
 
+@media only screen and (max-width: 1400px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    body {
+        font-size: 16px;
+    }
+}
