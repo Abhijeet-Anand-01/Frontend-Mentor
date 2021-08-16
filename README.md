@@ -11,3 +11,6 @@
 │ &nbsp&nbsp&nbsp&nbsp │<br>
 │ &nbsp&nbsp&nbsp&nbsp │── Profile card<br>
 │ &nbsp&nbsp&nbsp&nbsp │── Link - https://abhijeet-anand-01.github.io/Frontend-Mentor/Profile%20card/<br>
+│ &nbsp&nbsp&nbsp&nbsp │<br>
+│ &nbsp&nbsp&nbsp&nbsp │── Profile card<br>
+│ &nbsp&nbsp&nbsp&nbsp │── Link - https://abhijeet-anand-01.github.io/Frontend-Mentor/FAQ%20accordion%20card/<br>
