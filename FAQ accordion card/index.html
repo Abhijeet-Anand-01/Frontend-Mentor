@@ -4,92 +4,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/style.css">
 
-  <title>FAQ Accordion Card</title>
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
 </head>
 
 <body>
-  <main class="wrapper">
-    <div class="image__wrapper">
-      <div class="image__wrapper_inner">
-
-      </div>
-      <img class="box" src="images/illustration-box-desktop.svg" alt="box">
+  <div class="main_container">
+    <div class="img_container">
     </div>
-    <div class="accordion__wrapper">
-      <h1 class="title__accordion">FAQ</h1>
-      <div class="questions__accordions">
-        <div class="question-answer__accordion">
-          <div class="question">
-            <h2 class="title__question">
-              How many team members can I invite?
-            </h2>
-            <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow">
-          </div>
-          <div class="answer">
-            You can invite up to 2 additional users on the Free plan. There is no limit on
-            team members for the Premium plan.
-          </div>
+    <!-- <img src="./images/illustration-box-desktop.svg" alt=""> -->
+    <div class="question_container">
+      <h1>FAQ</h1>
+      <div class="questions_heading">
+        <div class="question_block">
+          <p class="question">How many team members can I invite?</p>
+          <img src="./images/icon-arrow-down.svg" alt="">
         </div>
-
-        <div class="question-answer__accordion">
-          <div class="question">
-            <h2 class="title__question">
-              What is the maximum file upload size?
-            </h2>
-            <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow">
-          </div>
-          <div class="answer">
-            No more than 2GB. All files in your account must fit your allotted storage space.
-          </div>
+        <div class="answer">
+          <!-- <p>You can invite up to 2 additional users on the Free plan. There is no limit on
+          team members for the Premium plan.</p> -->
         </div>
-
-        <div class="question-answer__accordion">
-          <div class="question">
-            <h2 class="title__question">
-              How do I reset my password?
-            </h2>
-            <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow">
-          </div>
-          <div class="answer">
-            Click “Forgot password” from the login page or “Change password” from your profile page.
-            A reset link will be emailed to you.
-          </div>
+      </div>
+      <div class="questions_heading">
+        <div class="question_block">
+          <p class="question">What is the maximum file upload size?</p>
+          <img src="./images/icon-arrow-down.svg" alt="">
         </div>
-
-        <div class="question-answer__accordion">
-          <div class="question">
-            <h2 class="title__question">
-              Can I cancel my subscription?
-            </h2>
-            <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow">
-          </div>
-          <div class="answer">
-            Yes! Send us a message and we’ll process your request no questions asked.
-          </div>
+        <div class="answer">
+          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
         </div>
+      </div>
 
-        <div class="question-answer__accordion">
-          <div class="question">
-            <h2 class="title__question">
-              Do you provide additional support?
-            </h2>
-            <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow">
-          </div>
-          <div class="answer ">
-            Chat and email support is available 24/7. Phone lines are open during normal business hours.
-          </div>
+      <div class="questions_heading">
+        <div class="question_block">
+          <p class="question">How do I reset my password?</p>
+          <img src="./images/icon-arrow-down.svg" alt="">
         </div>
+        <div class="answer">
+          <!-- <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.</p> -->
+        </div>
+      </div>
 
+      <div class="questions_heading">
+        <div class="question_block">
+          <p class="question">Can I cancel my subscription?</p>
+          <img src="./images/icon-arrow-down.svg" alt="">
+        </div>
+        <div class="answer">
+          <!-- <p>Yes! Send us a message and we’ll process your request no questions_heading asked.</p> -->
+        </div>
+      </div>
+
+      <div class="questions_heading">
+        <div class="question_block">
+          <p class="question">Do you provide additional support?</p>
+          <img src="./images/icon-arrow-down.svg" alt="">
+        </div>
+        <div class="answer">
+          <!-- <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p> -->
+        </div>
       </div>
     </div>
-  </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="./js/index.js"></script>
+
+  </div>
+
 </body>
 
 </html>
